@@ -1,0 +1,133 @@
+body{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background-image:white;
+    color:darkgray;
+}
+
+header{
+    text-align:center;
+    margin:auto;
+}
+
+h1{
+    font-family: 'Adamina', serif;
+}
+
+h2,h3{
+    font-family: 'Adamina', serif;
+    color:white;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+nav li{
+    display:inline-block;
+    color:white;
+    background: linear-gradient(-45deg, pink, lightblue);
+    border-radius: 25px;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:1%;
+    padding-bottom:1%;
+    margin-left:1%;
+    margin-right:1%;
+    border-style: dotted;
+    border-color:white;
+    font-family: 'Adamina', serif;
+}
+
+nav ul{
+    padding:0;
+    list-style:none;
+}
+
+#home1{
+    margin: 0 auto;
+}
+
+
+#homewrapper1, #homewrapper2, #eventwrapper1, #eventwrapper2, #eventwrapper3, #eventwrapper4, #eventwrapper5, .clipwrapper{
+    margin: 0 auto;
+    display:inline-block;
+    text-align:center;
+    color:cadetblue;
+}
+
+#content1, #content2, #content3, .clips{
+    width:400px;
+    height:300px;
+    float:left;
+    background: linear-gradient(-45deg, pink, lightblue);
+    border-radius: 25px;
+    margin:20px;
+    padding:20px;
+    border-style: dotted;
+    border-color:white;
+    color:cadetblue;
+    font-family: 'Adamina', serif;
+    overflow:auto;
+}
+
+#content2 ul{
+    list-style:none;
+}
+
+
+#event1, #event2, #event3, #event4, #event5, #event6, #event7, #event8, #event9, #event10{
+    width:600px;
+    height:400px;
+    float:left;
+    background: linear-gradient(-45deg, pink, lightblue);
+    border-radius: 25px;
+    margin:20px;
+    padding:20px;
+    border-style: dotted;
+    border-color:white;
+    color:cadetblue;
+    font-family: 'Adamina', serif;
+    overflow:auto;
+}
+
+.fulllength{
+    background: linear-gradient(-45deg, pink, lightblue);
+    border-radius: 25px;
+    margin:20px;
+    padding:20px;
+    border-style: dotted;
+    border-color:white;
+    color:white;
+    font-family: 'Adamina', serif;
+    overflow:auto;
+    text-align:center;
+    color:cadetblue;
+}
+
+#overallwrapper{
+    width:90%;
+}
+
+iframe{
+    margin:20px;
+    padding:20px;
+}
+
+footer{
+    background: linear-gradient(-45deg, pink, lightblue);
+    border-radius: 25px;
+    border-style: dotted;
+    border-color:white;
+    padding:20px;
+    color:white;
+    margin:auto;
+    font-family: 'Adamina', serif;
+}

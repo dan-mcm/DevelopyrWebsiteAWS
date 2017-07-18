@@ -3,7 +3,7 @@ body{
     width:80%;
     margin:auto;
     background-attachment:fixed;
-    background-image: url("./backgroundplaceholder.jpg"); /* source of image:   http://www.zastavki.com/pictures/originals/2015/Backgrounds_Line_of_computer_code_background_099068_.jpg */
+    background-image: url("./images/backgroundplaceholder.jpg"); /* source of image:   http://www.zastavki.com/pictures/originals/2015/Backgrounds_Line_of_computer_code_background_099068_.jpg */
 }
 
 header{
@@ -21,9 +21,12 @@ header{
     opacity:0.9;
     
 }
+
 li{
     font-size:24px;
+    color:black;
 }
+
 footer{
     background-color:#123652;
     color:#718EA4;
@@ -38,6 +41,8 @@ footer{
     box-shadow: 10px 10px 5px #045572;
     opacity:0.9;
     font-family: 'Alegreya', serif;
+    display:inline-block;
+    width:90%;
 }
 
 footer img{
@@ -68,6 +73,8 @@ nav ul{
     text-decoration:none; 
     margin:none;
     text-align:center;
+    padding:0;
+    
 }
 
 nav li{
@@ -101,7 +108,7 @@ nav a:hover{
 @font-face{
     font-family: 'AmaticSC'; /*sourced from font squirrel */
     font-weight: regular;
-    src: url("./AmaticSC-Regular.ttf");
+    src: url("./fonts/AmaticSC-Regular.ttf");
 }
 
 p{
@@ -128,7 +135,7 @@ p{
     padding-left:5%;
     padding-top:1%;
     padding-bottom:1%;
-    background-image: url("./placeholder.jpg");
+    background-image: url("./images/placeholder.jpg");
     font-size:10px;
     box-shadow: 10px 10px 5px #045572;
     
@@ -183,6 +190,7 @@ p{
     box-shadow: 10px 10px 5px #045572;
     vertical-align:top;
     font-family: 'Roboto Mono', monospace;
+    opacity:0.9;
 }
 
 .homesub2{
@@ -197,6 +205,7 @@ p{
     box-shadow: 10px 10px 5px #045572;
     vertical-align:top;
     font-family: 'Roboto Mono', monospace;
+    opacity:0.9;
 }
 
 .homesub3{
@@ -210,6 +219,7 @@ p{
     color:#718EA4;
     box-shadow: 10px 10px 5px #045572;
     vertical-align:top;
+    opacity:0.9;
     
 }
 
@@ -270,6 +280,8 @@ p{
     color:#718EA4;
     box-shadow: 10px 10px 5px #045572;
     vertical-align:top;
+    max-width:200px;
+    opacity:0.9;
 }
 .aboutpara3{
     width:20%;
@@ -284,6 +296,8 @@ p{
     color:#718EA4;
     box-shadow: 10px 10px 5px #045572;
     vertical-align:top;
+    max-width:200px;
+    opacity:0.9;
 }
 .aboutpara4{
     width:20%;
@@ -298,6 +312,8 @@ p{
     color:#718EA4;
     box-shadow: 10px 10px 5px #045572;
     vertical-align:top;
+    max-width:200px;
+    opacity:0.9;
 }
 
 .aboutpara5{
@@ -313,11 +329,13 @@ p{
     color:#718EA4;
     box-shadow: 10px 10px 5px #045572;
     vertical-align:top;
+    opacity:0.9;
 }
 
 .aboutpara5 img{
     width:100%;
     margin-bottom:3%;
+    
 }
 
 .aboutpara6{
@@ -333,6 +351,7 @@ p{
     color:#718EA4;
     box-shadow: 10px 10px 5px #045572;
     vertical-align:top;
+    opacity:0.9;
 }
 
 .aboutpara6 img{
@@ -353,11 +372,34 @@ p{
     color:#718EA4;
     box-shadow: 10px 10px 5px #045572;
     vertical-align:top;
+    opacity:0.9;
 }
 
 .aboutpara7 img{
     width:100%;
     margin-bottom:3%;
+}
+
+.skillwrapper{
+    margin:auto;
+    text-align:center;
+    width:100%;
+    #background-color:#123652;
+    display:inline-block:
+    float:left;
+    #box-shadow: 10px 10px 5px #045572;
+    opacity:0.9;
+    color:lemonchiffon;
+    padding:2px;
+    margin-bottom:25px;
+    margin-left:2.5%;
+    margin-right:5%;
+}
+
+.skillwrapper img{
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
 }
 
 .projectwrapper{
@@ -384,7 +426,7 @@ p{
     margin-left:2%;
     margin-right:2%;
     background-color:gray;
-    color:lemonchiffon;;
+    color:lemonchiffon;
     box-shadow: 10px 10px 5px #045572;
     opacity:0.9;
     vertical-align:top;
@@ -404,7 +446,24 @@ p{
     font-family:'AmaticSC';
 }
 
-#updatepara1{
+#updateparaold1, #updateparaold2{
+    width:60%;
+    display:inline-block;
+    padding-left:2%;
+    padding-right:2%;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-left:2%;
+    margin-right:2%;
+    background-color:#123652;
+    color:#718EA4;;
+    box-shadow: 10px 10px 5px #045572;
+    opacity:0.9;
+    float:left;
+    vertical-align:top;
+}
+
+#updateparanew{
     width:60%;
     display:inline-block;
     padding-left:2%;
@@ -436,4 +495,5 @@ p{
     opacity:0.9;
     float:right;
     vertical-align:top;
+    max-width:200px;
 }
